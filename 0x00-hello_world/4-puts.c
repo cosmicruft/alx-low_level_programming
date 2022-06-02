@@ -3,8 +3,8 @@
 *main - main block
 *Return : 0
 */
-int main(puzzle)
+int main(block)
 {
-puts("\"Programming is like building a multiligual puzzle");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
