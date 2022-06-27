@@ -54,5 +54,3 @@ char *str_concat(char *s1, char *s2)
 	str_copy[j] = '\0';
 	return (str_copy);
 }
-git add ..
-git commit -m "He who is not courageous enough to take risks will accomplish nothing in life"
