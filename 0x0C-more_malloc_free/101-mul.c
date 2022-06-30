@@ -3,13 +3,13 @@
 #include <stdlib.h>
 
 /**
- * main - program that multiplies two positive numbers
- *
- * @argc: argument count, must be 3
- * @argv: arguments, argv[1] and argv[2]
- *
- * Return: product of argv[1] by argv[2]
- */
+* main - program that multiplies two positive numbers
+*
+* @argc: argument count, must be 3
+* @argv: arguments, argv[1] and argv[2]
+*
+* Return: product of argv[1] by argv[2]
+*/
 
 int main(int argc, char *argv[])
 {
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
  * @str: parameter hard-coded in main
  *
  * Return: 1 or 0
- */
+*/
 
 int _isnumber(char *str)
 {
@@ -78,7 +78,7 @@ int _isnumber(char *str)
 /**
  * _error - print error
  * Return: void
- */
+*/
 
 void _error(void)
 {
@@ -96,7 +96,7 @@ void _error(void)
  * @s: parameter defined in main
  *
  * Return: length of string
- */
+*/
 
 int _strlen(char *s)
 {
@@ -115,7 +115,7 @@ int _strlen(char *s)
  * @nmemb: size of the memory space to allocate in bytes
  * @size: size of type
  * Return: void pointer
- */
+*/
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -141,7 +141,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  * @n: parameter defined in main, number of bytes to be filled
  *
  * Return: memory address of function (memory area)
- */
+*/
 
 char *_memset(char *s, char b, unsigned int n)
 {
