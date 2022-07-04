@@ -1,3 +1,4 @@
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -7,19 +8,6 @@
  */
 int main(void)
 {
-printf("%s\n", _FILE_);
+printf("%s\n", __FILE__);
 return (0);
 }
-#include <stdlib.h>
-#include <stdio.h>
-
-/**
- * main - name of a file
- * Return: Always 0 Success
- */
-int main(void)
-{
-printf("%s\n", _FILE_);
-return (0);
-}
-
